@@ -79,6 +79,7 @@
             border-radius: 4px;
         }
         #login button {
+                justify-content: right;
             background-color: #0077cc;
             color: white;
             padding: 10px;
@@ -104,6 +105,7 @@
             border-radius: 4px;
         }
         .search-btn {
+                justify-content: left;
             background-color: #0077cc;
             color: white;
             padding: 10px;
