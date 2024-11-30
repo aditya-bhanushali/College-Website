@@ -4,19 +4,26 @@
             margin: 0;
             padding: 0;
             color: #333;
-            background-image: url("https://wallpapers.com/images/hd/travel-hd-4zjwrepl0mzn70nd.jpg"); 
+            background-image: url(); 
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
         }
+ 
+
+ 
         header {
+        
+            background-image: url("https://wallpapers.com/images/hd/travel-hd-4zjwrepl0mzn70nd.jpg");
             background-color: rgba(0, 119, 204, 0.8); 
             color: white;
-            padding: 15px 20px;
+            position: relative;
+            padding: 120px 20px;
             text-align: center;
             font-size: 24px;
             font-weight: bold;
         }
+             
         nav {
             display: flex;
             justify-content: center;
@@ -112,8 +119,8 @@
 
         /* Book Now Section */
         #book-now {
-            position: fixed;
-            top: 20%;
+            position:relative;
+            top: 60%;
             right: 20px;
             background-color: rgba(0, 119, 204, 0.8);
             color: white;
@@ -142,7 +149,7 @@
         
         /*Popular Spot Section*/
         #pop-spot {
-        position: fixed;
+        position: relative;
         top: 55%;
         left: 20px;
         background: linear-gradient(to right, #0077cc, #005999);
@@ -184,8 +191,8 @@
 
         /* Feedback Section */
         #feedback {
-            position: fixed;
-            top: 50%;
+            position: relative;
+            top: 110%;
             right: 20px;
             background-color: rgba(0, 119, 204, 0.8);
             color: white;
