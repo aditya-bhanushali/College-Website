@@ -13,7 +13,7 @@
             display: flex;
             align-items: center;
             position: relative;
-            background-image: linear-gradient (to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) url('header2.jpeg'); 
+            background-image: url('header2.jpeg'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -37,6 +37,95 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
+ /* mountains Section */
+        #mountains {
+            position: fixed;
+            top: 20%;
+            left: 250px;
+            background-color: rgba(226, 235, 145, 0.8);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 200px;
+        }
+        #mountains h3 {
+            margin-bottom: 10px;
+        }
+        #mountains button {
+            background-color: #fff;
+            color: #0077cc;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        #mountains button:hover {
+            background-color: #0077cc;
+            color: white;
+        }
+
+/*Beaches*/
+ #beaches {
+            position: fixed;
+            top: 20%;
+            left: 500px;
+            background-color: rgba(226, 235, 145, 0.8);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 200px;
+        }
+        #beaches h3 {
+            margin-bottom: 10px;
+        }
+        #beaches button {
+            background-color: #fff;
+            color: #0077cc;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        #beaches button:hover {
+            background-color: #0077cc;
+            color: white;
+        }
+
+/*monuments*/
+ #monuments{
+            position: fixed;
+            top: 20%;
+            left: 750px;
+            background-color: rgba(226, 235, 145, 0.8);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 200px;
+        }
+        #monuments h3 {
+            margin-bottom: 10px;
+        }
+        #monuments button {
+            background-color: #fff;
+            color: #0077cc;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        #monuments button:hover {
+            background-color: #0077cc;
+            color: white;
+        }
         /* Navigation Bar Styles */
         nav {
             display: flex;
