@@ -40,7 +40,7 @@
  /* mountains Section */
         #mountains {
             position: absolute;
-            top: 50%;
+            top: 60%;
             left: 250px;
             background-color: rgba(226, 235, 145, 0.8);
             color: white;
@@ -70,7 +70,7 @@
 /*Beaches*/
  #beaches {
             position: absolute;
-            top: 50%;
+            top: 60%;
             left: 625px;
             background-color: rgba(226, 235, 145, 0.8);
             color: white;
@@ -100,7 +100,7 @@
 /*monuments*/
  #monuments{
             position: absolute;
-            top: 50%;
+            top: 60%;
             right: 250px;
             background-color: rgba(226, 235, 145, 0.8);
             color: white;
