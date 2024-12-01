@@ -40,7 +40,7 @@
  /* mountains Section */
         #mountains {
             position: fixed;
-            top: 35%;
+            top: 45%;
             left: 250px;
             background-color: rgba(226, 235, 145, 0.8);
             color: white;
@@ -70,8 +70,8 @@
 /*Beaches*/
  #beaches {
             position: fixed;
-            top: 35%;
-            left: 550px;
+            top: 45%;
+            left: 625px;
             background-color: rgba(226, 235, 145, 0.8);
             color: white;
             padding: 20px;
@@ -100,7 +100,7 @@
 /*monuments*/
  #monuments{
             position: fixed;
-            top: 35%;
+            top: 45%;
             right: 250px;
             background-color: rgba(226, 235, 145, 0.8);
             color: white;
@@ -143,7 +143,7 @@
             overflow: hidden;
             position: absolute;
             left: 20px;
-            top: 70%;
+            top: 80%;
             transform: translateY(-50%);
         }
 
