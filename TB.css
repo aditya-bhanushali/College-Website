@@ -101,7 +101,7 @@
  #monuments{
             position: fixed;
             top: 35%;
-            left: 800px;
+            right: 250px;
             background-color: rgba(226, 235, 145, 0.8);
             color: white;
             padding: 20px;
