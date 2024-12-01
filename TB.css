@@ -13,17 +13,17 @@
             display: flex;
             align-items: center;
             position: relative;
-            background-image: url('header2.jpeg'); /* Replace with your actual image path */
+            background-image: url('header2.jpeg'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             color: white;
             padding: 20px;
-            height: 300px; /* Set the height for consistent scaling */
+            height: 300px; 
         }
 
         header img {
-            height: 100px; /* Adjust logo size as needed */
+            height: 100px;
             margin-left: 20px;
         }
 
