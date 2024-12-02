@@ -131,7 +131,7 @@
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            background-color: rgba(0, 89, 153, 0.95);
+            background-color: rgba(0, 89, 153, 0.8);
             padding: 10px 20px;
         }
         .marquee {
@@ -143,7 +143,7 @@
             overflow: hidden;
             position: absolute;
             left: 20px;
-            top: 79%;
+            top: 77%;
             transform: translateY(-50%);
         }
 
@@ -185,7 +185,8 @@
         }
 
         #book-now {
-            background: rgba(255, 255, 255, 0.85);
+             background: linear-gradient(to right, #0077cc, #005999);
+            color: white;
         }
 
         #book-now button {
