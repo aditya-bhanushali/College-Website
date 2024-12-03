@@ -33,7 +33,7 @@
             font-weight: bold;
             flex: 1;
             text-align: center;
-            padding: 30px;
+            
             color: white;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
@@ -144,7 +144,7 @@
             overflow: hidden;
             position: absolute;
             left: 20px;
-            top: 73%;
+            top: 77%;
             transform: translateY(-50%);
         }
 
