@@ -42,7 +42,7 @@
  /* mountains Section */
         #mountains {
             position: absolute;
-            top: 60%;
+            top: 45%;
             left: 250px;
              background-color: rgba(128, 223, 221, 0.8);
             color: white;
@@ -72,7 +72,7 @@
 /*Beaches*/
  #beaches {
             position: absolute;
-            top: 60%;
+            top: 45%;
             left: 625px;
              background-color: rgba(128, 223, 221, 0.8);
             color: white;
@@ -102,7 +102,7 @@
 /*monuments*/
  #monuments{
             position: absolute;
-            top: 60%;
+            top: 45%;
             right: 250px;
              background-color: rgba(128, 223, 221, 0.8);
             color: white;
