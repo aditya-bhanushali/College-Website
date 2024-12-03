@@ -34,6 +34,8 @@
             flex: 1;
             text-align: center;
             padding: 30px;
+                width: 50%;
+                height: 50%
             color: white;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
