@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monuments in India</title>
+    <style>
+        body {
+            background-image: url(background\ images\ of\ monument.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            backdrop-filter: blur(5px);
+            margin: 0;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            color: rgb(223, 227, 235);
+            font-style: italic;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 55px;
+            text-align: center;
+            position: absolute;
+            top: 10%;
+            left: 0;
+            right: 0;
+            filter: drop-shadow(0 0 20px #08ffff);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            margin-top: 5%;
+            flex-wrap: wrap;
+        }
+
+        .image-box {
+            position: relative;
+            width: 32%;
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border-radius: 10px;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .image-box:hover .overlay {
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .image-box {
+                width: 80%;
+                margin: 20px auto;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="image-box">
+            <img src="taj mahal.jpg" alt="Taj Mahal">
+            <div class="overlay">
+                <strong>Taj Mahal</strong>
+                <br>
+                Located in Agra, the Taj Mahal is an iconic symbol of love and a UNESCO World Heritage Site. Built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal, it is renowned for its stunning white marble architecture and intricate designs.
+            </div>
+        </div>
+
+        <div class="image-box">
+            <img src="qtube minar.jpg" alt="Qutub Minar">
+            <div class="overlay">
+                <strong>Qutub Minar</strong>
+                <br>
+                Qutub Minar, located in Delhi, is a UNESCO World Heritage Site and the tallest brick minaret in the world. Built in the 12th century, it is a testament to Indo-Islamic architecture and history.
+            </div>
+        </div>
+
+        <div class="image-box">
+            <img src="gateway of india.jpg" alt="Gateway of India">
+            <div class="overlay">
+                <strong>Gateway of India</strong>
+                <br>
+                The Gateway of India, located in Mumbai, is a historic arch-monument built in the early 20th century. Overlooking the Arabian Sea, it symbolizes the grandeur of British colonial architecture.
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image-box">
+            <img src="hawa mahal.jpg" alt="Hawa Mahal">
+            <div class="overlay">
+                <strong>Hawa Mahal</strong>
+                <br>
+                Located in Jaipur, Hawa Mahal, or the "Palace of Winds," is a pink sandstone structure built in 1799. It features 953 intricately designed windows that allowed royal women to observe street life without being seen.
+            </div>
+        </div>
+
+        <div class="image-box">
+            <img src="red fort.jpg" alt="red fort">
+            <div class="overlay">
+                <strong>Red Fort </strong>
+                <br>
+                The **Red Fort**, located in Delhi, is a UNESCO World Heritage Site and a symbol of India’s rich history. Built in 1648 by Mughal Emperor Shah Jahan, it served as the Mughal emperors' residence for over two centuries. Constructed from red sandstone, the fort features stunning architecture, including the Diwan-i-Aam and Diwan-i-Khas. It holds historical significance and is a symbol of India’s independence, with the Prime Minister hoisting the national flag here every year on Independence Day.
+            </div>
+        </div>
+    </div>
+
+    <h1 style="color: rgb(218, 139, 37); font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif; position: relative; bottom: 5%;">For information, call us 📞</h1>
+    <h1 style="color: rgb(199, 123, 206); font-family: cursive; font-size: 35px; top: -12%; filter: drop-shadow(#07dffc);">Explore India's Architectural Marvels!</h1>
+</body>
+</html>
