@@ -75,7 +75,7 @@
  #beaches {
             position: absolute;
             top: 45%;
-            left: 500px;
+            left: 450px;
              background-color: rgba(128, 223, 221, 0.8);
             color: white;
             padding: 20px;
@@ -147,7 +147,7 @@
             overflow: hidden;
             position: absolute;
             left: 20px;
-            top: 80%;
+            top: 87%;
             transform: translateY(-50%);
         }
 
