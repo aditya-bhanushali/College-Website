@@ -61,7 +61,6 @@ Travel-Bliss/
 ## 👨‍💻 Contributors
 
 - [Aditya Bhanushali](https://github.com/aditya-bhanushali)
-- [Your Friend's Name] (add your friend's GitHub link here)
 
 ---
 
